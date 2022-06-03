@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 
-const Comments = () => {
+const Comments = ({ slug }) => {
+
     return (
         <div>
-            <h1>Comments</h1>
+            <h1>comments</h1>
         </div>
     )
 }
